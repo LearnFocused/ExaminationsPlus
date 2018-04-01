@@ -1,0 +1,12 @@
+{
+"name":"Examinations+",
+"description":"Removes IV version and stops redirects on http://examinations.ie",
+"version":"1",
+"manifest_version":2,
+"content_scripts": [
+	{
+	"matches": ["http://www.examinations.ie/*"],
+    "js": ["examinationsPlus.js"]
+    }
+]
+}
